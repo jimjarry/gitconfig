@@ -1,0 +1,25 @@
+[core]
+	excludesfile = /Users/helen/.gitignore_global
+	editor = Sublime Text
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = songhx
+	email = songhx@yiche.com
+[commit]
+	template = /Users/helen/.stCommitMsg
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	unstage = reset HEAD
+	last = log -1
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[pull]
+[color]
+	ui = true
