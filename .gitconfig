@@ -8,8 +8,8 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-	name = songhx
-	email = songhx@yiche.com
+	name = '用户名'
+	email = '用户邮箱'
 [commit]
 	template = /Users/helen/.stCommitMsg
 [alias]
